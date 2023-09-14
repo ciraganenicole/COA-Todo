@@ -1,0 +1,29 @@
+{
+  "name": "coa-todo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js --exec babel-node --"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ciraganenicole/COA-Todo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ciraganenicole/COA-Todo/issues"
+  },
+  "homepage": "https://github.com/ciraganenicole/COA-Todo#readme",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
